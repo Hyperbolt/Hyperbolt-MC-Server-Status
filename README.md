@@ -8,4 +8,4 @@
 2. run `node .` or `node index.js`
 
 # Credits
-Made by Lukeos11 with ♥ for Hyperbolt!
+Made by <a href="https://github.com/Lukeos11">Lukeos11</a> with ♥ for Hyperbolt!

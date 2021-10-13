@@ -99,7 +99,7 @@ async function getServerInfoV1() {
 
 function updateStatus() {
     const channel = client.channels.cache.get(process.env.CHANNELID);
-    if (!channel) return new error('Channel ID is undefined!');
+    if (!channel) return new Error('Channel ID is undefined!');
 
     if (!process.env.MESSAGEID) {
         const setupEmbed = new Discord.MessageEmbed()

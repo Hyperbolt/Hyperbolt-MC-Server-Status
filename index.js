@@ -36,7 +36,7 @@ resetStatus()
 let currentlyOnline = false;
 let currentPlayers = null;
 let maintenanceMode = false;
-let customMessage = 'Hello world';
+let customMessage = undefined;
 let oldStatus = 0;
 let currentStatus = 0;
 
